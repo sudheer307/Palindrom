@@ -6,8 +6,8 @@ public class Palindrome {
 
         originalInteger = num;
 
-        // reversed integer is stored in variable 
-        while( num != 0 )
+        // reversed integer is stored in variable
+        while( num != 1 )
         {
             remainder = num % 10;
             reversedInteger = reversedInteger * 10 + remainder;
